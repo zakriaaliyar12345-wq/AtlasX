@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_layers"
+        android:icon="@drawable/ic_layers"
+        android:title="@string/cd_layers"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_measure"
+        android:checkable="true"
+        android:icon="@drawable/ic_measure"
+        android:title="@string/cd_measure"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_locate"
+        android:icon="@drawable/ic_location"
+        android:title="@string/cd_location"
+        app:showAsAction="ifRoom" />
+</menu>

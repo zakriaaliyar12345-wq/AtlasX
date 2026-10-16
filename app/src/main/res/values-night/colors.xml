@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark palette for values-night -->
+    <color name="atlas_background">#0E1621</color>
+    <color name="atlas_surface">#16222F</color>
+    <color name="atlas_surface_alt">#1E2C3C</color>
+    <color name="atlas_border">#26364A</color>
+
+    <color name="atlas_text_primary">#E6EDF5</color>
+    <color name="atlas_text_secondary">#93A4B8</color>
+    <color name="atlas_text_on_dark">#FFFFFF</color>
+    <color name="atlas_text_on_navy_soft">#B9CBE0</color>
+
+    <!-- Material 3 role mapping (dark) -->
+    <color name="m3_primary">#5C9CE6</color>
+    <color name="m3_on_primary">#0B2742</color>
+    <color name="m3_primary_container">#1B3A5C</color>
+    <color name="m3_on_primary_container">#D7E4F4</color>
+    <color name="m3_secondary">#3FBFAE</color>
+    <color name="m3_on_secondary">#06302C</color>
+    <color name="m3_surface">#16222F</color>
+    <color name="m3_on_surface">#E6EDF5</color>
+    <color name="m3_background">#0E1621</color>
+    <color name="m3_on_background">#E6EDF5</color>
+    <color name="m3_error">#E57373</color>
+    <color name="m3_on_error">#3A0B08</color>
+</resources>

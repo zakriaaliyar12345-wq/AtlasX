@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="atlas_navy">#163B65</color>
+    <color name="atlas_navy_deep">#0F2742</color>
+    <color name="atlas_teal">#17827B</color>
+    <color name="atlas_teal_bright">#1FA396</color>
+
+    <!-- Surfaces -->
+    <color name="atlas_background">#F2F6FA</color>
+    <color name="atlas_surface">#FFFFFF</color>
+    <color name="atlas_surface_alt">#E9F0F7</color>
+    <color name="atlas_border">#D8E2ED</color>
+
+    <!-- Text -->
+    <color name="atlas_text_primary">#1B2A3D</color>
+    <color name="atlas_text_secondary">#617187</color>
+    <color name="atlas_text_on_dark">#FFFFFF</color>
+    <color name="atlas_text_on_navy_soft">#CFDDEC</color>
+
+    <!-- Semantic -->
+    <color name="atlas_error">#C0392B</color>
+    <color name="atlas_info">#2C6FB5</color>
+
+    <!-- Material 3 role mapping (light) -->
+    <color name="m3_primary">#163B65</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_primary_container">#D7E4F4</color>
+    <color name="m3_on_primary_container">#0B2742</color>
+    <color name="m3_secondary">#17827B</color>
+    <color name="m3_on_secondary">#FFFFFF</color>
+    <color name="m3_surface">#FFFFFF</color>
+    <color name="m3_on_surface">#1B2A3D</color>
+    <color name="m3_background">#F2F6FA</color>
+    <color name="m3_on_background">#1B2A3D</color>
+    <color name="m3_error">#C0392B</color>
+    <color name="m3_on_error">#FFFFFF</color>
+
+    <!-- Map accents -->
+</resources>

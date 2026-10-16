@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================= برنامه ================= -->
+    <string name="app_name">اطلس ایکس</string>
+    <string name="app_tagline">محیط کار پیشرفته اطلاعات مکانی</string>
+
+    <!-- ================= راهبری ================= -->
+    <string name="nav_dashboard">داشبورد</string>
+    <string name="nav_map">نقشه</string>
+    <string name="nav_points">نقاط</string>
+    <string name="nav_analysis">تحلیل</string>
+    <string name="nav_settings">تنظیمات</string>
+
+    <!-- ================= اقدامات عمومی ================= -->
+    <string name="cancel">انصراف</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="close">بستن</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="loading">در حال بارگذاری…</string>
+
+    <string name="cd_add">افزودن</string>
+    <string name="cd_edit">ویرایش</string>
+    <string name="cd_delete">حذف</string>
+    <string name="cd_location">موقعیت کنونی</string>
+    <string name="cd_layers">لایه‌های نقشه</string>
+    <string name="cd_measure">ابزارهای اندازه‌گیری</string>
+
+    <!-- ================= راهنمای شروع ================= -->
+    <string name="onboarding_title">به اطلس ایکس خوش آمدید</string>
+    <string name="onboarding_message">اطلس ایکس نقاط جغرافیایی، پروژه‌ها و اندازه‌گیری‌های شما را روی همین دستگاه نگه می‌دارد. برای کاوش، نقشه را باز کنید، روی نقشه لمس طولانی کنید تا نقطه بسازید، و از بخش «نقاط» فایل‌های GeoJSON را وارد یا خروجی بگیرید.</string>
+    <string name="onboarding_action">شروع کار</string>
+
+    <!-- ================= داشبورد ================= -->
+    <string name="dashboard_title">داشبورد</string>
+    <string name="dashboard_subtitle">محیط کار مکانی شما در یک نگاه</string>
+    <string name="dashboard_welcome">داده‌های مکانی خود را کاوش کنید، اندازه بگیرید و مدیریت کنید.</string>
+    <string name="stats_section">آمار محیط کار</string>
+    <string name="stat_points_label">نقاط ذخیره‌شده</string>
+    <string name="stat_projects_label">پروژه‌ها</string>
+    <string name="stat_storage_label">داده محلی</string>
+    <string name="quick_actions_section">دسترسی سریع</string>
+    <string name="action_open_map">بازکردن نقشه</string>
+    <string name="action_open_points">نقاط ذخیره‌شده</string>
+    <string name="action_open_projects">پروژه‌ها</string>
+    <string name="action_open_analysis">تحلیل</string>
+    <string name="action_import_geojson">واردکردن GeoJSON</string>
+    <string name="action_export_geojson">صادرکردن GeoJSON</string>
+    <string name="action_open_settings">تنظیمات</string>
+    <string name="recent_section">نقاط اخیر</string>
+    <string name="recent_empty">هنوز نقطه‌ای ذخیره نشده است. اولین نقطه جغرافیایی خود را از بخش «نقاط» اضافه کنید.</string>
+
+    <!-- ================= نقاط ================= -->
+    <string name="points_title">نقاط جغرافیایی</string>
+    <string name="points_subtitle">موقعیت‌های ذخیره‌شده در پایگاه داده محلی</string>
+    <string name="points_search_hint">جست‌وجو بر اساس نام یا توضیحات</string>
+    <string name="points_empty_title">هیچ نقطه‌ای ذخیره نشده است</string>
+    <string name="points_empty_message">به‌صورت دستی نقطه اضافه کنید، روی نقشه انتخاب کنید یا فایل GeoJSON وارد کنید.</string>
+
+    <string name="point_form_title_new">نقطه جغرافیایی جدید</string>
+    <string name="point_form_title_edit">ویرایش نقطه جغرافیایی</string>
+    <string name="field_point_name">نام نقطه</string>
+    <string name="field_latitude">عرض جغرافیایی (‎−90 تا 90)</string>
+    <string name="field_longitude">طول جغرافیایی (‎−180 تا 180)</string>
+    <string name="field_description">توضیحات (اختیاری)</string>
+    <string name="field_project">پروژه (اختیاری)</string>
+    <string name="err_name_required">برای این نقطه نامی وارد کنید.</string>
+    <string name="err_latitude_range">عرض جغرافیایی باید عددی بین ‎−90 تا 90 باشد.</string>
+    <string name="err_longitude_range">طول جغرافیایی باید عددی بین ‎−180 تا 180 باشد.</string>
+    <string name="err_coordinate_number">عدد معتبر وارد کنید.</string>
+    <string name="point_saved">نقطه روی این دستگاه ذخیره شد.</string>
+    <string name="point_updated">نقطه به‌روزرسانی شد.</string>
+    <string name="point_deleted">نقطه حذف شد.</string>
+    <string name="delete_point_title">حذف نقطه؟</string>
+    <string name="delete_point_confirm">آیا %1$s از این دستگاه حذف شود؟ این عمل قابل بازگشت نیست.</string>
+    <string name="point_item_format">%1$s · %2$.5f، %3$.5f</string>
+
+    <string name="menu_import_geojson">واردکردن GeoJSON</string>
+    <string name="menu_export_geojson">صادرکردن GeoJSON</string>
+    <string name="menu_share_points">اشتراک‌گذاری نقاط</string>
+    <string name="geojson_import_empty">فایل هیچ ویژگی نقطه معتبری ندارد.</string>
+    <string name="geojson_import_invalid">فایل یک FeatureCollection معتبر GeoJSON نیست.</string>
+    <string name="geojson_export_success">فایل GeoJSON با موفقیت صادر شد.</string>
+    <string name="geojson_export_empty">هنوز نقطه‌ای برای خروجی گرفتن وجود ندارد.</string>
+    <string name="geojson_error">عملیات GeoJSON ناموفق بود: %1$s</string>
+    <string name="share_subject">نقاط جغرافیایی اطلس ایکس</string>
+    <string name="share_line_format">%1$s — %2$.6f، %3$.6f</string>
+    <string name="pick_on_map">انتخاب روی نقشه</string>
+    <string name="pick_mode_hint">برای انتخاب این موقعیت، روی نقشه ضربه بزنید.</string>
+
+    <!-- ================= پروژه‌ها ================= -->
+    <string name="projects_title">پروژه‌ها</string>
+    <string name="projects_subtitle">نقاط خود را در پروژه‌های میدانی گروه‌بندی کنید</string>
+    <string name="projects_empty_title">هنوز پروژه‌ای وجود ندارد</string>
+    <string name="projects_empty_message">برای سازمان‌دهی نقاطی که جمع‌آوری می‌کنید یک پروژه بسازید.</string>
+    <string name="project_dialog_title">ایجاد پروژه</string>
+    <string name="project_name_hint">نام پروژه</string>
+    <string name="project_name_required">نام پروژه را وارد کنید.</string>
+    <string name="project_name_exists">پروژه‌ای با این نام از قبل وجود دارد.</string>
+    <string name="project_saved">پروژه روی این دستگاه ذخیره شد.</string>
+    <string name="project_renamed">نام پروژه تغییر کرد.</string>
+    <string name="rename_project">تغییر نام پروژه</string>
+    <string name="project_deleted">پروژه حذف شد.</string>
+    <string name="delete_project_title">حذف پروژه؟</string>
+    <string name="delete_project_confirm">پروژه %1$s حذف شود؟ نقاط آن باقی می‌مانند و بدون پروژه می‌شوند.</string>
+    <string name="no_project_label">بدون پروژه</string>
+
+    <!-- ================= تحلیل ================= -->
+    <string name="analysis_title">تحلیل مکانی</string>
+    <string name="analysis_subtitle">فاصله، مساحت و تبدیل مختصات</string>
+
+    <string name="distance_section">فاصله بین دو مختصات</string>
+    <string name="distance_hint">فاصله کوتاه‌ترین مسیر روی کره زمین بر اساس مدل کروی WGS 84.</string>
+    <string name="latitude_a">عرض جغرافیایی نقطه اول</string>
+    <string name="longitude_a">طول جغرافیایی نقطه اول</string>
+    <string name="latitude_b">عرض جغرافیایی نقطه دوم</string>
+    <string name="longitude_b">طول جغرافیایی نقطه دوم</string>
+    <string name="action_calculate">محاسبه</string>
+    <string name="distance_placeholder">برای محاسبه فاصله سطحی، هر دو مختصات را وارد کنید.</string>
+    <string name="distance_result_km">فاصله: %1$s</string>
+
+    <string name="area_section">مساحت چندضلعی</string>
+    <string name="area_hint">حداقل سه رأس اضافه کنید. مساحت با روش فزونی کروی محاسبه می‌شود.</string>
+    <string name="action_add_vertex">افزودن رأس</string>
+    <string name="vertex_latitude_hint">عرض جغرافیایی رأس</string>
+    <string name="vertex_longitude_hint">طول جغرافیایی رأس</string>
+    <string name="action_clear_vertices">پاک‌کردن رئوس</string>
+    <string name="area_placeholder">برای محاسبه مساحت حداقل سه رأس اضافه کنید.</string>
+    <string name="area_needs_three">یک چندضلعی به حداقل سه رأس نیاز دارد.</string>
+
+    <string name="converter_section">تبدیل‌کننده قالب مختصات</string>
+    <string name="converter_hint">تبدیل بین درجه اعشاری و درجه، دقیقه، ثانیه.</string>
+    <string name="converter_input_hint">عرض یا طول جغرافیایی</string>
+    <string name="action_convert">تبدیل</string>
+    <string name="converter_result">نتیجه: %1$s</string>
+    <string name="err_dms_format">مقداری مانند 35.6892 یا ‎35°41\'21" N وارد کنید.</string>
+
+    <!-- ================= نقشه ================= -->
+    <string name="map_title">محیط نقشه</string>
+
+
+
+
+
+
+
+    <!-- ================= تنظیمات ================= -->
+    <string name="settings_title">تنظیمات</string>
+    <string name="settings_subtitle">زبان، نقشه و ترجیحات داده</string>
+
+    <string name="language_section">زبان</string>
+    <string name="language_title">زبان برنامه</string>
+    <string name="language_dialog_title">یک زبان انتخاب کنید</string>
+    <string name="language_english">English</string>
+    <string name="language_persian">فارسی</string>
+
+    <string name="map_settings_section">نقشه</string>
+    <string name="coordinate_format_title">نمایش مختصات</string>
+    <string name="coord_decimal">درجه اعشاری (35.689200)</string>
+    <string name="coord_dms">درجه، دقیقه، ثانیه (‎35°41\'21" N)</string>
+    <string name="units_title">واحدهای اندازه‌گیری</string>
+    <string name="unit_metric">متریک (متر، کیلومتر)</string>
+    <string name="unit_imperial">امپریال (فوت، مایل)</string>
+
+    <string name="data_section">داده و فضای ذخیره‌سازی</string>
+    <string name="cache_title">حافظه نهان کاشی نقشه</string>
+    <string name="cache_clear_confirm">همه کاشی‌های نقشه حذف شوند؟ نقشه هنگام اتصال دوباره آن‌ها را بارگذاری می‌کند.</string>
+    <string name="cache_cleared">حافظه نهان کاشی‌ها پاک شد.</string>
+    <string name="cache_size_format">اندازه حافظه نهان: %1$s</string>
+
+    <string name="about_section">درباره</string>
+    <string name="about_version">نسخه %1$s</string>
+    <string name="about_privacy_title">حریم خصوصی</string>
+    <string name="about_privacy_message">نقاط، پروژه‌ها و ترجیحات شما روی همین دستگاه می‌مانند. اطلس ایکس سیستم حساب کاربری ندارد و هیچ داده شخصی را به جایی ارسال نمی‌کند.</string>
+    <string name="about_attribution_title">انتساب نقشه</string>
+    <string name="about_attribution_message">کاشی‌ها و داده‌های نقشه از OpenStreetMap و CARTO تأمین می‌شوند و مجوزها و الزامات انتساب آن‌ها رعایت شده است.</string>
+    <string name="about_open_source_title">متن‌باز</string>
+    <string name="about_open_source_message">اطلس ایکس از کتابخانه osmdroid (مجوز Apache 2.0) برای رسم کاشی‌های OpenStreetMap استفاده می‌کند.</string>
+
+    <!-- ================= اعلان‌ها ================= -->
+    <string name="notif_channel_name">عملیات فایل</string>
+    <string name="notif_channel_description">به‌روزرسانی درباره وظایف واردکردن و صادرکردن GeoJSON</string>
+    <string name="notif_export_title">خروجی GeoJSON پایان یافت</string>
+    <string name="notif_import_title">واردکردن GeoJSON پایان یافت</string>
+    <string name="notif_permission_rationale">اطلس ایکس برای اعلام پایان عملیات واردکردن یا صادرکردن در پس‌زمینه از اعلان‌ها استفاده می‌کند.</string>
+    <string name="imported_point_default">نقطه واردشده</string>
+
+    <string name="search_empty_title">هیچ نقطه مطابقی یافت نشد</string>
+    <string name="search_empty_message">هیچ نقطه ذخیره‌شده‌ای با جست‌وجوی شما مطابقت ندارد.</string>
+    <string name="points_count_filtered_format">نمایش %1$d از %2$s نقطه</string>
+    <string name="area_result">مساحت: %1$s</string>
+    <string name="perimeter_result">محیط: %1$s</string>
+    <string name="err_coordinates_invalid">عرض و طول جغرافیایی معتبر وارد کنید.</string>
+    <string name="err_input_required">ابتدا یک مقدار وارد کنید.</string>
+    <string name="tile_source_title">سبک نقشه</string>
+    <string name="tile_standard">OpenStreetMap (استاندارد)</string>
+    <string name="tile_positron">CARTO Positron (روشن)</string>
+    <string name="tile_voyager">CARTO Voyager (رنگارنگ)</string>
+    <string name="diagnostics_title">تشخیص</string>
+    <string name="diagnostics_format">%1$s نقطه · %2$s پروژه</string>
+    <string name="reset_map_title">بازنشانی دیدگاه ذخیره‌شده نقشه</string>
+    <string name="reset_map_done">دیدگاه ذخیره‌شده نقشه پاک شد.</string>
+    <string name="clear_cache">پاک‌سازی حافظه نهان</string>
+    <string name="map_pick_title">انتخاب موقعیت</string>
+    <string name="map_pick_hint">برای انتخاب موقعیت این نقطه روی نقشه ضربه بزنید.</string>
+    <string name="map_offline">اتصال اینترنت برقرار نیست — کاش نقشه‌ها نمایش داده می‌شوند.</string>
+    <string name="map_measure_start">برای افزودن نقاط اندازه‌گیری روی نقشه ضربه بزنید.</string>
+    <string name="action_clear_measure">پاک کردن</string>
+    <string name="map_location_permission_denied">مجوز موقعیت‌یابی رد شد. همچنان می‌توانید نقشه را جست‌وجو کنید.</string>
+    <string name="map_location_unavailable">موقعیت فعلی هنوز در دسترس نیست.</string>
+    <string name="map_style_changed">سبک نقشه تغییر کرد.</string>
+    <string name="tile_labels_note">سبک کاشی، زبان برچسب‌ها را هم تغییر می‌دهد: نقشه استاندارد نام‌های محلی (مانند تهران) را نشان می‌دهد و سبک‌های CARTO نام‌های انگلیسی را.</string>
+    <plurals name="points_count">
+        <item quantity="one">%1$d نقطه</item>
+        <item quantity="other">%1$d نقطه</item>
+    </plurals>
+    <plurals name="projects_count">
+        <item quantity="one">%1$d پروژه</item>
+        <item quantity="other">%1$d پروژه</item>
+    </plurals>
+    <plurals name="geojson_import_success">
+        <item quantity="one">تعداد %1$d نقطه از فایل وارد شد.</item>
+        <item quantity="other">تعداد %1$d نقطه از فایل وارد شد.</item>
+    </plurals>
+    <plurals name="notif_export_text">
+        <item quantity="one">تعداد %1$d نقطه در فایل نوشته شد.</item>
+        <item quantity="other">تعداد %1$d نقطه در فایل نوشته شد.</item>
+    </plurals>
+    <plurals name="notif_import_text">
+        <item quantity="one">تعداد %1$d نقطه به پایگاه داده اضافه شد.</item>
+        <item quantity="other">تعداد %1$d نقطه به پایگاه داده اضافه شد.</item>
+    </plurals>
+
+    <string name="dashboard_summary_format">%1$s · %2$s</string>
+    <string name="project_meta_format">%1$s · %2$s</string>
+    <string name="coordinate_pair_format">%1$s, %2$s</string>
+    <string name="converter_result_lines">%1$s&#10;%2$s</string>
+    <plurals name="area_vertex_count">
+        <item quantity="one">%1$d رأس اضافه شد</item>
+        <item quantity="other">%1$d رأس اضافه شد</item>
+    </plurals>
+
+</resources>

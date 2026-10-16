@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================= Application ================= -->
+    <string name="app_name">Atlas X</string>
+    <string name="app_tagline">Advanced geographic intelligence workspace</string>
+
+    <!-- ================= Navigation ================= -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_points">Points</string>
+    <string name="nav_analysis">Analysis</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- ================= Common actions ================= -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="loading">Loading…</string>
+
+    <!-- Content descriptions (accessibility) -->
+    <string name="cd_add">Add</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_location">Current location</string>
+    <string name="cd_layers">Map layers</string>
+    <string name="cd_measure">Measurement tools</string>
+
+    <!-- ================= Onboarding ================= -->
+    <string name="onboarding_title">Welcome to Atlas X</string>
+    <string name="onboarding_message">Atlas X keeps your geographic points, projects and measurements on this device. Open the map to explore, long-press the map to add a point, and use the Points screen to import or export GeoJSON files.</string>
+    <string name="onboarding_action">Start working</string>
+
+    <!-- ================= Dashboard ================= -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_subtitle">Your geographic workspace at a glance</string>
+    <string name="dashboard_welcome">Explore, measure and manage your spatial data.</string>
+    <string name="stats_section">Workspace statistics</string>
+    <string name="stat_points_label">Saved points</string>
+    <string name="stat_projects_label">Projects</string>
+    <string name="stat_storage_label">Local data</string>
+    <string name="quick_actions_section">Quick actions</string>
+    <string name="action_open_map">Open map</string>
+    <string name="action_open_points">Saved points</string>
+    <string name="action_open_projects">Projects</string>
+    <string name="action_open_analysis">Analysis</string>
+    <string name="action_import_geojson">Import GeoJSON</string>
+    <string name="action_export_geojson">Export GeoJSON</string>
+    <string name="action_open_settings">Settings</string>
+    <string name="recent_section">Recent points</string>
+    <string name="recent_empty">No points yet. Add your first geographic point from the Points screen.</string>
+
+    <!-- ================= Points ================= -->
+    <string name="points_title">Geographic points</string>
+    <string name="points_subtitle">Saved locations stored in the local database</string>
+    <string name="points_search_hint">Search by name or description</string>
+    <string name="points_empty_title">No points saved</string>
+    <string name="points_empty_message">Add a point manually, pick one on the map, or import a GeoJSON file.</string>
+
+    <string name="point_form_title_new">New geographic point</string>
+    <string name="point_form_title_edit">Edit geographic point</string>
+    <string name="field_point_name">Point name</string>
+    <string name="field_latitude">Latitude (−90 to 90)</string>
+    <string name="field_longitude">Longitude (−180 to 180)</string>
+    <string name="field_description">Description (optional)</string>
+    <string name="field_project">Project (optional)</string>
+    <string name="err_name_required">Enter a name for this point.</string>
+    <string name="err_latitude_range">Latitude must be a number between −90 and 90.</string>
+    <string name="err_longitude_range">Longitude must be a number between −180 and 180.</string>
+    <string name="err_coordinate_number">Enter a valid number.</string>
+    <string name="point_saved">Point saved on this device.</string>
+    <string name="point_updated">Point updated.</string>
+    <string name="point_deleted">Point deleted.</string>
+    <string name="delete_point_title">Delete point?</string>
+    <string name="delete_point_confirm">Delete %1$s from this device? This cannot be undone.</string>
+    <string name="point_item_format">%1$s · %2$.5f, %3$.5f</string>
+
+    <string name="menu_import_geojson">Import GeoJSON</string>
+    <string name="menu_export_geojson">Export GeoJSON</string>
+    <string name="menu_share_points">Share points</string>
+    <string name="geojson_import_empty">The file contains no valid point features.</string>
+    <string name="geojson_import_invalid">The file is not a valid GeoJSON FeatureCollection.</string>
+    <string name="geojson_export_success">GeoJSON exported successfully.</string>
+    <string name="geojson_export_empty">There are no points to export yet.</string>
+    <string name="geojson_error">GeoJSON operation failed: %1$s</string>
+    <string name="share_subject">Atlas X geographic points</string>
+    <string name="share_line_format">%1$s — %2$.6f, %3$.6f</string>
+    <string name="pick_on_map">Pick on map</string>
+    <string name="pick_mode_hint">Tap the map to choose this location.</string>
+
+    <!-- ================= Projects ================= -->
+    <string name="projects_title">Projects</string>
+    <string name="projects_subtitle">Group your points into field projects</string>
+    <string name="projects_empty_title">No projects yet</string>
+    <string name="projects_empty_message">Create a project to organise the points you collect.</string>
+    <string name="project_dialog_title">Create a project</string>
+    <string name="project_name_hint">Project name</string>
+    <string name="project_name_required">Enter a project name.</string>
+    <string name="project_name_exists">A project with this name already exists.</string>
+    <string name="project_saved">Project saved on this device.</string>
+    <string name="project_renamed">Project renamed.</string>
+    <string name="rename_project">Rename project</string>
+    <string name="project_deleted">Project deleted.</string>
+    <string name="delete_project_title">Delete project?</string>
+    <string name="delete_project_confirm">Delete the project %1$s? Its points are kept and become unassigned.</string>
+    <string name="no_project_label">No project</string>
+
+    <!-- ================= Analysis ================= -->
+    <string name="analysis_title">Spatial analysis</string>
+    <string name="analysis_subtitle">Distance, area and coordinate conversion</string>
+
+    <string name="distance_section">Distance between two coordinates</string>
+    <string name="distance_hint">Great-circle distance on the WGS 84 reference ellipsoid (spherical model).</string>
+    <string name="latitude_a">Point A latitude</string>
+    <string name="longitude_a">Point A longitude</string>
+    <string name="latitude_b">Point B latitude</string>
+    <string name="longitude_b">Point B longitude</string>
+    <string name="action_calculate">Calculate</string>
+    <string name="distance_placeholder">Enter both coordinates to calculate the surface distance.</string>
+    <string name="distance_result_km">Distance: %1$s</string>
+
+    <string name="area_section">Polygon area</string>
+    <string name="area_hint">Add at least three vertices, counter-clockwise or clockwise. Area uses the spherical excess method.</string>
+    <string name="action_add_vertex">Add vertex</string>
+    <string name="vertex_latitude_hint">Vertex latitude</string>
+    <string name="vertex_longitude_hint">Vertex longitude</string>
+    <string name="action_clear_vertices">Clear vertices</string>
+    <string name="area_placeholder">Add at least three vertices to compute the area.</string>
+    <string name="area_needs_three">A polygon needs at least three vertices.</string>
+    <string name="area_result">Area: %1$s</string>
+    <string name="perimeter_result">Perimeter: %1$s</string>
+    <string name="err_coordinates_invalid">Enter a valid latitude and longitude.</string>
+    <string name="err_input_required">Enter a value first.</string>
+
+    <string name="converter_section">Coordinate format converter</string>
+    <string name="converter_hint">Convert between decimal degrees and degrees, minutes, seconds.</string>
+    <string name="converter_input_hint">Latitude or longitude</string>
+    <string name="action_convert">Convert</string>
+    <string name="converter_result">Result: %1$s</string>
+    <string name="err_dms_format">Use a value such as 35.6892, or 35°41\'21.1" N.</string>
+
+    <!-- ================= Map ================= -->
+    <string name="map_title">Map workspace</string>
+
+
+
+
+
+
+
+    <!-- ================= Settings ================= -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Language, map and data preferences</string>
+
+    <string name="language_section">Language</string>
+    <string name="language_title">App language</string>
+    <string name="language_dialog_title">Choose a language</string>
+    <string name="language_english">English</string>
+    <string name="language_persian">فارسی</string>
+
+    <string name="map_settings_section">Map</string>
+    <string name="coordinate_format_title">Coordinate display</string>
+    <string name="coord_decimal">Decimal degrees (35.689200)</string>
+    <string name="coord_dms">Degrees, minutes, seconds (35°41\'21" N)</string>
+    <string name="units_title">Measurement units</string>
+    <string name="unit_metric">Metric (metres, kilometres)</string>
+    <string name="unit_imperial">Imperial (feet, miles)</string>
+
+    <string name="data_section">Data and storage</string>
+    <string name="cache_title">Map tile cache</string>
+    <string name="cache_clear_confirm">Delete all cached map tiles? The map will reload them when you are online.</string>
+    <string name="cache_cleared">Tile cache cleared.</string>
+    <string name="cache_size_format">Cache size: %1$s</string>
+
+    <string name="about_section">About</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_privacy_title">Privacy</string>
+    <string name="about_privacy_message">Your points, projects and preferences stay on this device. Atlas X has no account system and sends no personal data anywhere.</string>
+    <string name="about_attribution_title">Map attribution</string>
+    <string name="about_attribution_message">Map tiles and geographic data come from OpenStreetMap and CARTO. Their licences and attribution requirements are respected.</string>
+    <string name="about_open_source_title">Open source</string>
+    <string name="about_open_source_message">Atlas X uses the osmdroid library (Apache Licence 2.0) to render OpenStreetMap tiles.</string>
+
+    <!-- ================= Notifications ================= -->
+    <string name="notif_channel_name">File operations</string>
+    <string name="notif_channel_description">Updates about GeoJSON import and export tasks</string>
+    <string name="notif_export_title">GeoJSON export finished</string>
+    <string name="notif_import_title">GeoJSON import finished</string>
+    <string name="notif_permission_rationale">Atlas X uses notifications to tell you when a background import or export has finished.</string>
+    <string name="imported_point_default">Imported point</string>
+
+    <string name="search_empty_title">No matching points</string>
+    <string name="search_empty_message">No saved point matches your search.</string>
+    <string name="points_count_filtered_format">Showing %1$d of %2$s points</string>
+    <string name="tile_source_title">Map style</string>
+    <string name="tile_standard">OpenStreetMap (standard)</string>
+    <string name="tile_positron">CARTO Positron (light)</string>
+    <string name="tile_voyager">CARTO Voyager (colourful)</string>
+    <string name="diagnostics_title">Diagnostics</string>
+    <string name="diagnostics_format">%1$s points · %2$s projects</string>
+    <string name="reset_map_title">Reset saved map view</string>
+    <string name="reset_map_done">Saved map view cleared.</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="map_pick_title">Pick a location</string>
+    <string name="map_pick_hint">Tap the map to choose the location for this point.</string>
+    <string name="map_offline">No internet connection — showing cached map tiles.</string>
+    <string name="map_measure_start">Tap the map to add measurement points.</string>
+    <string name="action_clear_measure">Clear</string>
+    <string name="map_location_permission_denied">Location permission was denied. You can still navigate the map manually.</string>
+    <string name="map_location_unavailable">Current location is not available yet.</string>
+    <string name="map_style_changed">Map style changed.</string>
+    <string name="tile_labels_note">Tile style also changes the label language: OpenStreetMap shows local names (such as Tehran), while the CARTO styles show English names.</string>
+    <plurals name="points_count">
+        <item quantity="one">%1$d point</item>
+        <item quantity="other">%1$d points</item>
+    </plurals>
+    <plurals name="projects_count">
+        <item quantity="one">%1$d project</item>
+        <item quantity="other">%1$d projects</item>
+    </plurals>
+    <plurals name="geojson_import_success">
+        <item quantity="one">Imported %1$d point from the file.</item>
+        <item quantity="other">Imported %1$d points from the file.</item>
+    </plurals>
+    <plurals name="notif_export_text">
+        <item quantity="one">%1$d point was written to the file.</item>
+        <item quantity="other">%1$d points were written to the file.</item>
+    </plurals>
+    <plurals name="notif_import_text">
+        <item quantity="one">%1$d point was added to the database.</item>
+        <item quantity="other">%1$d points were added to the database.</item>
+    </plurals>
+    <string name="dashboard_summary_format">%1$s · %2$s</string>
+    <string name="project_meta_format">%1$s · %2$s</string>
+    <string name="coordinate_pair_format">%1$s, %2$s</string>
+    <string name="converter_result_lines">%1$s&#10;%2$s</string>
+    <plurals name="area_vertex_count">
+        <item quantity="one">%1$d vertex added</item>
+        <item quantity="other">%1$d vertices added</item>
+    </plurals>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Atlas X theme.
+        The palette is defined once in values/colors.xml and overridden in
+        values-night/colors.xml, so a single theme definition serves both
+        light and dark mode.
+    -->
+    <style name="Base.Theme.AtlasX" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/m3_primary</item>
+        <item name="colorOnPrimary">@color/m3_on_primary</item>
+        <item name="colorPrimaryContainer">@color/m3_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/m3_on_primary_container</item>
+        <item name="colorSecondary">@color/m3_secondary</item>
+        <item name="colorOnSecondary">@color/m3_on_secondary</item>
+        <item name="colorSurface">@color/m3_surface</item>
+        <item name="colorSurfaceContainer">@color/atlas_surface</item>
+        <item name="colorOnSurface">@color/m3_on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/atlas_text_secondary</item>
+        <item name="colorSurfaceVariant">@color/atlas_surface_alt</item>
+        <item name="colorOutline">@color/atlas_border</item>
+        <item name="android:colorBackground">@color/m3_background</item>
+        <item name="colorOnBackground">@color/m3_on_background</item>
+        <item name="colorError">@color/m3_error</item>
+        <item name="colorOnError">@color/m3_on_error</item>
+
+        <item name="android:statusBarColor">@color/atlas_navy_deep</item>
+        <item name="android:windowBackground">@color/atlas_background</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.AtlasX.AlertDialog</item>
+        <item name="materialButtonStyle">@style/Widget.AtlasX.Button</item>
+    </style>
+
+    <style name="Theme.AtlasX" parent="Base.Theme.AtlasX" />
+
+    <style name="ThemeOverlay.AtlasX.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.AtlasX.Medium</item>
+    </style>
+
+    <style name="ShapeAppearance.AtlasX.Medium" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Consistent rounded buttons across the application. -->
+    <style name="Widget.AtlasX.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <style name="Widget.AtlasX.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="strokeColor">@color/atlas_border</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="TextAppearance.AtlasX.SectionTitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/atlas_text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.AtlasX.Label" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:textColor">@color/atlas_text_secondary</item>
+    </style>
+
+    <!-- Active pill behind the selected bottom navigation item. -->
+    <style name="Widget.AtlasX.NavIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/atlas_surface_alt</item>
+    </style>
+</resources>
